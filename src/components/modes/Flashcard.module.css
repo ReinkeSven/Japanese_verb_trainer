@@ -1,0 +1,132 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  min-height: 320px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  cursor: pointer;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.card:not(.flipped):hover {
+  box-shadow: 0 8px 32px rgba(196, 30, 58, 0.15);
+  border-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.card.correct  { border-color: #16a34a; box-shadow: 0 4px 24px rgba(22, 163, 74, 0.18); }
+.card.incorrect { border-color: #dc2626; box-shadow: 0 4px 24px rgba(220, 38, 38, 0.18); }
+
+.card.flipped { cursor: default; }
+
+/* Decorative vertical rule */
+.card::before {
+  content: '';
+  position: absolute;
+  top: var(--space-5);
+  bottom: var(--space-5);
+  left: 0;
+  width: 3px;
+  background: var(--color-accent);
+  border-radius: 0 2px 2px 0;
+  opacity: 0.6;
+}
+
+.jlptBadge {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-4);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+  background: var(--color-accent-subtle);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.front, .back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+.kanji {
+  font-family: var(--font-japanese);
+  font-size: 3.5rem;
+  line-height: 1.1;
+  color: var(--color-text);
+}
+
+.kana {
+  font-family: var(--font-japanese);
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+}
+
+.hint {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
+
+.meaning {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.verbType {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  background: var(--color-hover);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.example {
+  margin-top: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  width: 100%;
+}
+
+.exJa {
+  font-family: var(--font-japanese);
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  margin: 0 0 4px;
+}
+
+.exEn {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-3);
+  justify-content: center;
+}

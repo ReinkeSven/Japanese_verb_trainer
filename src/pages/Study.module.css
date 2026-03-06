@@ -1,0 +1,172 @@
+/* ── Setup page ── */
+.setupPage {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--space-10) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-text);
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.pageTitleJa {
+  font-family: var(--font-japanese);
+  font-size: 1.375rem;
+  color: var(--color-accent);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.sectionLabel {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* Level picker */
+.levelPicker {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.levelBtn {
+  font-family: inherit;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.levelBtn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.levelBtn.levelActive {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.verbCount {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+/* Mode grid */
+.modeGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+
+@media (max-width: 480px) {
+  .modeGrid { grid-template-columns: 1fr; }
+}
+
+.modeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: box-shadow 0.2s, transform 0.15s, border-color 0.15s;
+}
+
+.modeCard:hover:not(:disabled) {
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 20px rgba(196, 30, 58, 0.12);
+  transform: translateY(-2px);
+}
+
+.modeCard:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.modeIcon  { font-size: 1.75rem; }
+.modeLabel { font-size: 1rem; font-weight: 700; color: var(--color-text); }
+.modeDesc  { font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.4; }
+
+/* ── Session page ── */
+.sessionPage {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+}
+
+.sessionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.backBtn {
+  font-family: inherit;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s;
+}
+.backBtn:hover { color: var(--color-accent); }
+
+.sessionInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.modeName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.sessionStats {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.sessionContent {
+  flex: 1;
+  padding: var(--space-8) var(--space-6);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}

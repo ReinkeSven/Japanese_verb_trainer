@@ -1,0 +1,1619 @@
+[
+  {
+    "id": "taberu",
+    "kanji": "食べる",
+    "kana": "たべる",
+    "romaji": "taberu",
+    "meaning": "to eat",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "毎朝パンを食べます。", "romaji": "Mai asa pan wo tabemasu.", "english": "I eat bread every morning." }
+    ]
+  },
+  {
+    "id": "nomu",
+    "kanji": "飲む",
+    "kana": "のむ",
+    "romaji": "nomu",
+    "meaning": "to drink",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "水を飲みます。", "romaji": "Mizu wo nomimasu.", "english": "I drink water." }
+    ]
+  },
+  {
+    "id": "iku",
+    "kanji": "行く",
+    "kana": "いく",
+    "romaji": "iku",
+    "meaning": "to go",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "学校へ行きます。", "romaji": "Gakkou e ikimasu.", "english": "I go to school." }
+    ]
+  },
+  {
+    "id": "kuru",
+    "kanji": "来る",
+    "kana": "くる",
+    "romaji": "kuru",
+    "meaning": "to come",
+    "jlpt": "N5",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "友達が来ます。", "romaji": "Tomodachi ga kimasu.", "english": "My friend is coming." }
+    ]
+  },
+  {
+    "id": "suru",
+    "kanji": "する",
+    "kana": "する",
+    "romaji": "suru",
+    "meaning": "to do",
+    "jlpt": "N5",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "宿題をします。", "romaji": "Shukudai wo shimasu.", "english": "I do homework." }
+    ]
+  },
+  {
+    "id": "miru",
+    "kanji": "見る",
+    "kana": "みる",
+    "romaji": "miru",
+    "meaning": "to see; to watch",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "テレビを見ます。", "romaji": "Terebi wo mimasu.", "english": "I watch TV." }
+    ]
+  },
+  {
+    "id": "kiku",
+    "kanji": "聞く",
+    "kana": "きく",
+    "romaji": "kiku",
+    "meaning": "to listen; to ask",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "音楽を聞きます。", "romaji": "Ongaku wo kikimasu.", "english": "I listen to music." }
+    ]
+  },
+  {
+    "id": "hanasu",
+    "kanji": "話す",
+    "kana": "はなす",
+    "romaji": "hanasu",
+    "meaning": "to speak; to talk",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "日本語を話します。", "romaji": "Nihongo wo hanashimasu.", "english": "I speak Japanese." }
+    ]
+  },
+  {
+    "id": "yomu",
+    "kanji": "読む",
+    "kana": "よむ",
+    "romaji": "yomu",
+    "meaning": "to read",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "本を読みます。", "romaji": "Hon wo yomimasu.", "english": "I read a book." }
+    ]
+  },
+  {
+    "id": "kaku",
+    "kanji": "書く",
+    "kana": "かく",
+    "romaji": "kaku",
+    "meaning": "to write",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "手紙を書きます。", "romaji": "Tegami wo kakimasu.", "english": "I write a letter." }
+    ]
+  },
+  {
+    "id": "kau",
+    "kanji": "買う",
+    "kana": "かう",
+    "romaji": "kau",
+    "meaning": "to buy",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "本を買います。", "romaji": "Hon wo kaimasu.", "english": "I buy a book." }
+    ]
+  },
+  {
+    "id": "noru",
+    "kanji": "乗る",
+    "kana": "のる",
+    "romaji": "noru",
+    "meaning": "to ride; to board",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "電車に乗ります。", "romaji": "Densha ni norimasu.", "english": "I ride the train." }
+    ]
+  },
+  {
+    "id": "oriru",
+    "kanji": "降りる",
+    "kana": "おりる",
+    "romaji": "oriru",
+    "meaning": "to get off; to descend",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "バスを降ります。", "romaji": "Basu wo orimasu.", "english": "I get off the bus." }
+    ]
+  },
+  {
+    "id": "okiru",
+    "kanji": "起きる",
+    "kana": "おきる",
+    "romaji": "okiru",
+    "meaning": "to wake up; to get up",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "七時に起きます。", "romaji": "Shichi-ji ni okimasu.", "english": "I wake up at 7 o'clock." }
+    ]
+  },
+  {
+    "id": "neru",
+    "kanji": "寝る",
+    "kana": "ねる",
+    "romaji": "neru",
+    "meaning": "to sleep; to go to bed",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "十一時に寝ます。", "romaji": "Juuichi-ji ni nemasu.", "english": "I go to bed at 11 o'clock." }
+    ]
+  },
+  {
+    "id": "aruku",
+    "kanji": "歩く",
+    "kana": "あるく",
+    "romaji": "aruku",
+    "meaning": "to walk",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "公園を歩きます。", "romaji": "Kouen wo arukimasu.", "english": "I walk in the park." }
+    ]
+  },
+  {
+    "id": "hashiru",
+    "kanji": "走る",
+    "kana": "はしる",
+    "romaji": "hashiru",
+    "meaning": "to run",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "毎日走ります。", "romaji": "Mainichi hashirimasu.", "english": "I run every day." }
+    ]
+  },
+  {
+    "id": "oyogu",
+    "kanji": "泳ぐ",
+    "kana": "およぐ",
+    "romaji": "oyogu",
+    "meaning": "to swim",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "ぐ",
+    "examples": [
+      { "japanese": "海で泳ぎます。", "romaji": "Umi de oyogimasu.", "english": "I swim in the sea." }
+    ]
+  },
+  {
+    "id": "matsu",
+    "kanji": "待つ",
+    "kana": "まつ",
+    "romaji": "matsu",
+    "meaning": "to wait",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "つ",
+    "examples": [
+      { "japanese": "バスを待ちます。", "romaji": "Basu wo machimasu.", "english": "I wait for the bus." }
+    ]
+  },
+  {
+    "id": "au",
+    "kanji": "会う",
+    "kana": "あう",
+    "romaji": "au",
+    "meaning": "to meet",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "友達に会います。", "romaji": "Tomodachi ni aimasu.", "english": "I meet my friend." }
+    ]
+  },
+  {
+    "id": "iru",
+    "kanji": "いる",
+    "kana": "いる",
+    "romaji": "iru",
+    "meaning": "to exist; to be (animate)",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "家にいます。", "romaji": "Ie ni imasu.", "english": "I am at home." }
+    ]
+  },
+  {
+    "id": "aru",
+    "kanji": "ある",
+    "kana": "ある",
+    "romaji": "aru",
+    "meaning": "to exist; to be (inanimate)",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "本があります。", "romaji": "Hon ga arimasu.", "english": "There is a book." }
+    ]
+  },
+  {
+    "id": "wakaru",
+    "kanji": "分かる",
+    "kana": "わかる",
+    "romaji": "wakaru",
+    "meaning": "to understand",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "日本語が分かります。", "romaji": "Nihongo ga wakarimasu.", "english": "I understand Japanese." }
+    ]
+  },
+  {
+    "id": "oshieru",
+    "kanji": "教える",
+    "kana": "おしえる",
+    "romaji": "oshieru",
+    "meaning": "to teach; to tell",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "英語を教えます。", "romaji": "Eigo wo oshiemasu.", "english": "I teach English." }
+    ]
+  },
+  {
+    "id": "shimeru",
+    "kanji": "閉める",
+    "kana": "しめる",
+    "romaji": "shimeru",
+    "meaning": "to close; to shut",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "ドアを閉めます。", "romaji": "Doa wo shimemasu.", "english": "I close the door." }
+    ]
+  },
+  {
+    "id": "akeru",
+    "kanji": "開ける",
+    "kana": "あける",
+    "romaji": "akeru",
+    "meaning": "to open",
+    "jlpt": "N5",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "窓を開けます。", "romaji": "Mado wo akemasu.", "english": "I open the window." }
+    ]
+  },
+  {
+    "id": "tsukuru",
+    "kanji": "作る",
+    "kana": "つくる",
+    "romaji": "tsukuru",
+    "meaning": "to make; to create",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "ケーキを作ります。", "romaji": "Keeki wo tsukurimasu.", "english": "I make a cake." }
+    ]
+  },
+  {
+    "id": "miseru",
+    "kanji": "見せる",
+    "kana": "みせる",
+    "romaji": "miseru",
+    "meaning": "to show",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "写真を見せます。", "romaji": "Shashin wo misemasu.", "english": "I show a photo." }
+    ]
+  },
+  {
+    "id": "morau",
+    "kanji": "もらう",
+    "kana": "もらう",
+    "romaji": "morau",
+    "meaning": "to receive",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "プレゼントをもらいます。", "romaji": "Purezento wo moraimasu.", "english": "I receive a present." }
+    ]
+  },
+  {
+    "id": "ageru",
+    "kanji": "あげる",
+    "kana": "あげる",
+    "romaji": "ageru",
+    "meaning": "to give (to someone else)",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "花をあげます。", "romaji": "Hana wo agemasu.", "english": "I give flowers." }
+    ]
+  },
+  {
+    "id": "kureru",
+    "kanji": "くれる",
+    "kana": "くれる",
+    "romaji": "kureru",
+    "meaning": "to give (to me/in-group)",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "友達が本をくれます。", "romaji": "Tomodachi ga hon wo kuremasu.", "english": "My friend gives me a book." }
+    ]
+  },
+  {
+    "id": "narau",
+    "kanji": "習う",
+    "kana": "ならう",
+    "romaji": "narau",
+    "meaning": "to learn (from a teacher)",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "ピアノを習います。", "romaji": "Piano wo naraimasu.", "english": "I learn piano." }
+    ]
+  },
+  {
+    "id": "naru",
+    "kanji": "なる",
+    "kana": "なる",
+    "romaji": "naru",
+    "meaning": "to become",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "医者になります。", "romaji": "Isha ni narimasu.", "english": "I become a doctor." }
+    ]
+  },
+  {
+    "id": "wasureru",
+    "kanji": "忘れる",
+    "kana": "わすれる",
+    "romaji": "wasureru",
+    "meaning": "to forget",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "名前を忘れます。", "romaji": "Namae wo wasuremasu.", "english": "I forget the name." }
+    ]
+  },
+  {
+    "id": "oboeru",
+    "kanji": "覚える",
+    "kana": "おぼえる",
+    "romaji": "oboeru",
+    "meaning": "to remember; to memorize",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "単語を覚えます。", "romaji": "Tango wo oboemasu.", "english": "I memorize vocabulary." }
+    ]
+  },
+  {
+    "id": "dekiru",
+    "kanji": "できる",
+    "kana": "できる",
+    "romaji": "dekiru",
+    "meaning": "to be able to; to be completed",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "日本語が話せます。", "romaji": "Nihongo ga hanasemasu.", "english": "I can speak Japanese." }
+    ]
+  },
+  {
+    "id": "kangaeru",
+    "kanji": "考える",
+    "kana": "かんがえる",
+    "romaji": "kangaeru",
+    "meaning": "to think; to consider",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "答えを考えます。", "romaji": "Kotae wo kangaemasu.", "english": "I think of the answer." }
+    ]
+  },
+  {
+    "id": "koeru",
+    "kanji": "越える",
+    "kana": "こえる",
+    "romaji": "koeru",
+    "meaning": "to cross; to exceed",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "山を越えます。", "romaji": "Yama wo koemasu.", "english": "I cross the mountain." }
+    ]
+  },
+  {
+    "id": "shinjiru",
+    "kanji": "信じる",
+    "kana": "しんじる",
+    "romaji": "shinjiru",
+    "meaning": "to believe; to trust",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "あなたを信じます。", "romaji": "Anata wo shinjimasu.", "english": "I believe in you." }
+    ]
+  },
+  {
+    "id": "kimeru",
+    "kanji": "決める",
+    "kana": "きめる",
+    "romaji": "kimeru",
+    "meaning": "to decide",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "日程を決めます。", "romaji": "Nittei wo kimemasu.", "english": "I decide the schedule." }
+    ]
+  },
+  {
+    "id": "hairu",
+    "kanji": "入る",
+    "kana": "はいる",
+    "romaji": "hairu",
+    "meaning": "to enter",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "部屋に入ります。", "romaji": "Heya ni hairimasu.", "english": "I enter the room." }
+    ]
+  },
+  {
+    "id": "deru",
+    "kanji": "出る",
+    "kana": "でる",
+    "romaji": "deru",
+    "meaning": "to leave; to exit; to appear",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "家を出ます。", "romaji": "Ie wo demasu.", "english": "I leave the house." }
+    ]
+  },
+  {
+    "id": "uru",
+    "kanji": "売る",
+    "kana": "うる",
+    "romaji": "uru",
+    "meaning": "to sell",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "本を売ります。", "romaji": "Hon wo urimasu.", "english": "I sell books." }
+    ]
+  },
+  {
+    "id": "harau",
+    "kanji": "払う",
+    "kana": "はらう",
+    "romaji": "harau",
+    "meaning": "to pay",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "お金を払います。", "romaji": "Okane wo haraimasu.", "english": "I pay money." }
+    ]
+  },
+  {
+    "id": "sagasu",
+    "kanji": "探す",
+    "kana": "さがす",
+    "romaji": "sagasu",
+    "meaning": "to search for; to look for",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "仕事を探します。", "romaji": "Shigoto wo sagashimasu.", "english": "I search for a job." }
+    ]
+  },
+  {
+    "id": "kaesu",
+    "kanji": "返す",
+    "kana": "かえす",
+    "romaji": "kaesu",
+    "meaning": "to return (something)",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "本を返します。", "romaji": "Hon wo kaeshimasu.", "english": "I return the book." }
+    ]
+  },
+  {
+    "id": "okuru",
+    "kanji": "送る",
+    "kana": "おくる",
+    "romaji": "okuru",
+    "meaning": "to send",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "メールを送ります。", "romaji": "Meeru wo okurimasu.", "english": "I send an email." }
+    ]
+  },
+  {
+    "id": "tsutaeru",
+    "kanji": "伝える",
+    "kana": "つたえる",
+    "romaji": "tsutaeru",
+    "meaning": "to convey; to tell; to pass on",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "気持ちを伝えます。", "romaji": "Kimochi wo tsutaemasu.", "english": "I convey my feelings." }
+    ]
+  },
+  {
+    "id": "katazukeru",
+    "kanji": "片付ける",
+    "kana": "かたづける",
+    "romaji": "katazukeru",
+    "meaning": "to tidy up; to put away",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "部屋を片付けます。", "romaji": "Heya wo katazukemasu.", "english": "I tidy up the room." }
+    ]
+  },
+  {
+    "id": "tobu",
+    "kanji": "飛ぶ",
+    "kana": "とぶ",
+    "romaji": "tobu",
+    "meaning": "to fly; to jump",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "ぶ",
+    "examples": [
+      { "japanese": "鳥が飛びます。", "romaji": "Tori ga tobimasu.", "english": "The bird flies." }
+    ]
+  },
+  {
+    "id": "naku",
+    "kanji": "泣く",
+    "kana": "なく",
+    "romaji": "naku",
+    "meaning": "to cry",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "映画を見て泣きました。", "romaji": "Eiga wo mite nakimashita.", "english": "I cried watching the movie." }
+    ]
+  },
+  {
+    "id": "warau",
+    "kanji": "笑う",
+    "kana": "わらう",
+    "romaji": "warau",
+    "meaning": "to laugh; to smile",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "みんなが笑います。", "romaji": "Minna ga waraimasu.", "english": "Everyone laughs." }
+    ]
+  },
+  {
+    "id": "okoru",
+    "kanji": "起こる",
+    "kana": "おこる",
+    "romaji": "okoru",
+    "meaning": "to occur; to happen",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "事故が起こりました。", "romaji": "Jiko ga okorimashita.", "english": "An accident occurred." }
+    ]
+  },
+  {
+    "id": "komu",
+    "kanji": "込む",
+    "kana": "こむ",
+    "romaji": "komu",
+    "meaning": "to be crowded; to be packed",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "電車が込んでいます。", "romaji": "Densha ga konde imasu.", "english": "The train is crowded." }
+    ]
+  },
+  {
+    "id": "tsuzukeru",
+    "kanji": "続ける",
+    "kana": "つづける",
+    "romaji": "tsuzukeru",
+    "meaning": "to continue; to keep doing",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "勉強を続けます。", "romaji": "Benkyou wo tsuzukemasu.", "english": "I continue studying." }
+    ]
+  },
+  {
+    "id": "yameru",
+    "kanji": "止める",
+    "kana": "やめる",
+    "romaji": "yameru",
+    "meaning": "to stop; to quit",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "タバコをやめます。", "romaji": "Tabako wo yamemasu.", "english": "I quit smoking." }
+    ]
+  },
+  {
+    "id": "kaeru",
+    "kanji": "変える",
+    "kana": "かえる",
+    "romaji": "kaeru",
+    "meaning": "to change (something)",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "計画を変えます。", "romaji": "Keikaku wo kaemasu.", "english": "I change the plan." }
+    ]
+  },
+  {
+    "id": "kawaru",
+    "kanji": "変わる",
+    "kana": "かわる",
+    "romaji": "kawaru",
+    "meaning": "to change (intransitive)",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "天気が変わります。", "romaji": "Tenki ga kawarimasu.", "english": "The weather changes." }
+    ]
+  },
+  {
+    "id": "mukaeru",
+    "kanji": "迎える",
+    "kana": "むかえる",
+    "romaji": "mukaeru",
+    "meaning": "to welcome; to greet; to go to meet",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "空港で迎えます。", "romaji": "Kuukou de mukaemasu.", "english": "I welcome at the airport." }
+    ]
+  },
+  {
+    "id": "komaru",
+    "kanji": "困る",
+    "kana": "こまる",
+    "romaji": "komaru",
+    "meaning": "to be troubled; to be in difficulty",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "お金がなくて困ります。", "romaji": "Okane ga nakute komarimasu.", "english": "I am troubled because I have no money." }
+    ]
+  },
+  {
+    "id": "kitaeru",
+    "kanji": "鍛える",
+    "kana": "きたえる",
+    "romaji": "kitaeru",
+    "meaning": "to train; to forge; to build up",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "体を鍛えます。", "romaji": "Karada wo kitaemasu.", "english": "I train my body." }
+    ]
+  },
+  {
+    "id": "magaru",
+    "kanji": "曲がる",
+    "kana": "まがる",
+    "romaji": "magaru",
+    "meaning": "to turn; to bend",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "角を曲がります。", "romaji": "Kado wo magarimasu.", "english": "I turn at the corner." }
+    ]
+  },
+  {
+    "id": "fueru",
+    "kanji": "増える",
+    "kana": "ふえる",
+    "romaji": "fueru",
+    "meaning": "to increase; to multiply",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "人口が増えます。", "romaji": "Jinkou ga fuemasu.", "english": "The population increases." }
+    ]
+  },
+  {
+    "id": "herasu",
+    "kanji": "減らす",
+    "kana": "へらす",
+    "romaji": "herasu",
+    "meaning": "to decrease; to reduce",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "体重を減らします。", "romaji": "Taijuu wo herashimasu.", "english": "I reduce my weight." }
+    ]
+  },
+  {
+    "id": "azukeru",
+    "kanji": "預ける",
+    "kana": "あずける",
+    "romaji": "azukeru",
+    "meaning": "to entrust; to deposit",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "銀行にお金を預けます。", "romaji": "Ginkou ni okane wo azukemasu.", "english": "I deposit money in the bank." }
+    ]
+  },
+  {
+    "id": "hakobu",
+    "kanji": "運ぶ",
+    "kana": "はこぶ",
+    "romaji": "hakobu",
+    "meaning": "to carry; to transport",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "ぶ",
+    "examples": [
+      { "japanese": "荷物を運びます。", "romaji": "Nimotsu wo hakobimasu.", "english": "I carry luggage." }
+    ]
+  },
+  {
+    "id": "tasukeru",
+    "kanji": "助ける",
+    "kana": "たすける",
+    "romaji": "tasukeru",
+    "meaning": "to save; to help; to rescue",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "友達を助けます。", "romaji": "Tomodachi wo tasukemasu.", "english": "I help my friend." }
+    ]
+  },
+  {
+    "id": "kizuku",
+    "kanji": "気づく",
+    "kana": "きづく",
+    "romaji": "kizuku",
+    "meaning": "to notice; to realize",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "間違いに気づきます。", "romaji": "Machigai ni kizukimasu.", "english": "I notice a mistake." }
+    ]
+  },
+  {
+    "id": "odoroку",
+    "kanji": "驚く",
+    "kana": "おどろく",
+    "romaji": "odoroku",
+    "meaning": "to be surprised; to be astonished",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "ニュースに驚きます。", "romaji": "Nyuusu ni odorokimasu.", "english": "I am surprised by the news." }
+    ]
+  },
+  {
+    "id": "okureru",
+    "kanji": "遅れる",
+    "kana": "おくれる",
+    "romaji": "okureru",
+    "meaning": "to be late; to be delayed",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "電車に遅れます。", "romaji": "Densha ni okuremasu.", "english": "I am late for the train." }
+    ]
+  },
+  {
+    "id": "michiru",
+    "kanji": "満ちる",
+    "kana": "みちる",
+    "romaji": "michiru",
+    "meaning": "to be full; to be filled",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "愛に満ちています。", "romaji": "Ai ni michite imasu.", "english": "It is filled with love." }
+    ]
+  },
+  {
+    "id": "shinjirareru",
+    "kanji": "信じられる",
+    "kana": "しんじられる",
+    "romaji": "shinjireru",
+    "meaning": "to be believable; to be trusted",
+    "jlpt": "N2",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "信じられない話です。", "romaji": "Shinjirarenai hanashi desu.", "english": "It's an unbelievable story." }
+    ]
+  },
+  {
+    "id": "kotonaru",
+    "kanji": "異なる",
+    "kana": "ことなる",
+    "romaji": "kotonaru",
+    "meaning": "to differ; to vary",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "文化が異なります。", "romaji": "Bunka ga kotonarimasu.", "english": "The cultures differ." }
+    ]
+  },
+  {
+    "id": "totonoru",
+    "kanji": "整う",
+    "kana": "ととのう",
+    "romaji": "totonou",
+    "meaning": "to be in order; to be arranged",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "準備が整います。", "romaji": "Junbi ga totonoимас.", "english": "The preparations are in order." }
+    ]
+  },
+  {
+    "id": "matomeru",
+    "kanji": "まとめる",
+    "kana": "まとめる",
+    "romaji": "matomeru",
+    "meaning": "to summarize; to organize; to put together",
+    "jlpt": "N2",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "意見をまとめます。", "romaji": "Iken wo matomemasu.", "english": "I summarize the opinions." }
+    ]
+  },
+  {
+    "id": "hajimaru",
+    "kanji": "始まる",
+    "kana": "はじまる",
+    "romaji": "hajimaru",
+    "meaning": "to begin (intransitive)",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "授業が始まります。", "romaji": "Jugyou ga hajimarimasu.", "english": "The class begins." }
+    ]
+  },
+  {
+    "id": "owaru",
+    "kanji": "終わる",
+    "kana": "おわる",
+    "romaji": "owaru",
+    "meaning": "to end; to finish",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "仕事が終わります。", "romaji": "Shigoto ga owarimasu.", "english": "The work ends." }
+    ]
+  },
+  {
+    "id": "kaeру",
+    "kanji": "帰る",
+    "kana": "かえる",
+    "romaji": "kaeru_go",
+    "meaning": "to return home; to go back",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "家に帰ります。", "romaji": "Ie ni kaerimasu.", "english": "I return home." }
+    ]
+  },
+  {
+    "id": "tomaru",
+    "kanji": "止まる",
+    "kana": "とまる",
+    "romaji": "tomaru",
+    "meaning": "to stop; to come to a halt",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "バスが止まります。", "romaji": "Basu ga tomarimasu.", "english": "The bus stops." }
+    ]
+  },
+  {
+    "id": "taosu",
+    "kanji": "倒す",
+    "kana": "たおす",
+    "romaji": "taosu",
+    "meaning": "to knock down; to defeat",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "敵を倒します。", "romaji": "Teki wo taoshimasu.", "english": "I defeat the enemy." }
+    ]
+  },
+  {
+    "id": "kowasu",
+    "kanji": "壊す",
+    "kana": "こわす",
+    "romaji": "kowasu",
+    "meaning": "to break; to destroy",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "機械を壊します。", "romaji": "Kikai wo kowashimasu.", "english": "I break the machine." }
+    ]
+  },
+  {
+    "id": "naoru",
+    "kanji": "治る",
+    "kana": "なおる",
+    "romaji": "naoru",
+    "meaning": "to get better; to be cured",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "病気が治ります。", "romaji": "Byouki ga naorimasu.", "english": "The illness gets better." }
+    ]
+  },
+  {
+    "id": "naosu",
+    "kanji": "直す",
+    "kana": "なおす",
+    "romaji": "naosu",
+    "meaning": "to fix; to correct; to repair",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "間違いを直します。", "romaji": "Machigai wo naoshimasu.", "english": "I correct the mistake." }
+    ]
+  },
+  {
+    "id": "todokeru",
+    "kanji": "届ける",
+    "kana": "とどける",
+    "romaji": "todokeru",
+    "meaning": "to deliver; to notify",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "荷物を届けます。", "romaji": "Nimotsu wo todokemasu.", "english": "I deliver the package." }
+    ]
+  },
+  {
+    "id": "yakusu",
+    "kanji": "訳す",
+    "kana": "やくす",
+    "romaji": "yakusu",
+    "meaning": "to translate",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "文章を訳します。", "romaji": "Bunshou wo yakushimasu.", "english": "I translate the sentence." }
+    ]
+  },
+  {
+    "id": "ukeru",
+    "kanji": "受ける",
+    "kana": "うける",
+    "romaji": "ukeru",
+    "meaning": "to receive; to take (a test)",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "試験を受けます。", "romaji": "Shiken wo ukemasu.", "english": "I take the exam." }
+    ]
+  },
+  {
+    "id": "kotaeru",
+    "kanji": "答える",
+    "kana": "こたえる",
+    "romaji": "kotaeru",
+    "meaning": "to answer; to respond",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "質問に答えます。", "romaji": "Shitsumon ni kotaemasu.", "english": "I answer the question." }
+    ]
+  },
+  {
+    "id": "tazuneru",
+    "kanji": "尋ねる",
+    "kana": "たずねる",
+    "romaji": "tazuneru",
+    "meaning": "to ask; to inquire; to visit",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "道を尋ねます。", "romaji": "Michi wo tazunemasu.", "english": "I ask for directions." }
+    ]
+  },
+  {
+    "id": "kokorozasu",
+    "kanji": "志す",
+    "kana": "こころざす",
+    "romaji": "kokorozasu",
+    "meaning": "to aspire to; to aim for",
+    "jlpt": "N1",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "医者を志します。", "romaji": "Isha wo kokorozashimasu.", "english": "I aspire to be a doctor." }
+    ]
+  },
+  {
+    "id": "osameru",
+    "kanji": "収める",
+    "kana": "おさめる",
+    "romaji": "osameru",
+    "meaning": "to store; to achieve; to pay",
+    "jlpt": "N1",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "成果を収めます。", "romaji": "Seika wo osamemasu.", "english": "I achieve results." }
+    ]
+  },
+  {
+    "id": "totonоeru",
+    "kanji": "整える",
+    "kana": "ととのえる",
+    "romaji": "totonоeru",
+    "meaning": "to arrange; to put in order",
+    "jlpt": "N2",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "環境を整えます。", "romaji": "Kankyou wo totonoemasu.", "english": "I arrange the environment." }
+    ]
+  },
+  {
+    "id": "toraeru",
+    "kanji": "捉える",
+    "kana": "とらえる",
+    "romaji": "toraeru",
+    "meaning": "to catch; to grasp; to capture",
+    "jlpt": "N2",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "チャンスを捉えます。", "romaji": "Chansu wo toraemasu.", "english": "I grasp the chance." }
+    ]
+  },
+  {
+    "id": "hazukashimeru",
+    "kanji": "恥じる",
+    "kana": "はじる",
+    "romaji": "hajiru",
+    "meaning": "to feel ashamed",
+    "jlpt": "N1",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "失敗を恥じます。", "romaji": "Shippai wo hajimasu.", "english": "I feel ashamed of the failure." }
+    ]
+  },
+  {
+    "id": "kudasu",
+    "kanji": "下す",
+    "kana": "くだす",
+    "romaji": "kudasu",
+    "meaning": "to hand down; to deliver (a verdict)",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "判断を下します。", "romaji": "Handan wo kudashimasu.", "english": "I hand down a judgment." }
+    ]
+  },
+  {
+    "id": "mairu",
+    "kanji": "参る",
+    "kana": "まいる",
+    "romaji": "mairu",
+    "meaning": "to go; to come (humble)",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "ただ今参ります。", "romaji": "Tadaima mairimasu.", "english": "I am coming right away." }
+    ]
+  },
+  {
+    "id": "moushiageru",
+    "kanji": "申し上げる",
+    "kana": "もうしあげる",
+    "romaji": "moushiageru",
+    "meaning": "to say; to tell (humble)",
+    "jlpt": "N2",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "ご説明申し上げます。", "romaji": "Go-setsumei moushiagemasu.", "english": "I will humbly explain." }
+    ]
+  },
+  {
+    "id": "itadaku",
+    "kanji": "いただく",
+    "kana": "いただく",
+    "romaji": "itadaku",
+    "meaning": "to receive (humble); to eat/drink (humble)",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "く",
+    "examples": [
+      { "japanese": "お土産をいただきます。", "romaji": "Omiyage wo itadakimasu.", "english": "I humbly receive the souvenir." }
+    ]
+  },
+  {
+    "id": "gozaru",
+    "kanji": "ございます",
+    "kana": "ございます",
+    "romaji": "gozaru",
+    "meaning": "to exist; to be (polite/formal)",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "こちらにございます。", "romaji": "Kochira ni gozaimasu.", "english": "It is over here." }
+    ]
+  },
+  {
+    "id": "yowaru",
+    "kanji": "弱る",
+    "kana": "よわる",
+    "romaji": "yowaru",
+    "meaning": "to weaken; to be in trouble",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "体が弱ります。", "romaji": "Karada ga yowarimasu.", "english": "The body weakens." }
+    ]
+  },
+  {
+    "id": "tsumu",
+    "kanji": "積む",
+    "kana": "つむ",
+    "romaji": "tsumu",
+    "meaning": "to pile up; to accumulate",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "経験を積みます。", "romaji": "Keiken wo tsumimasu.", "english": "I accumulate experience." }
+    ]
+  },
+  {
+    "id": "tateru",
+    "kanji": "建てる",
+    "kana": "たてる",
+    "romaji": "tateru",
+    "meaning": "to build; to construct",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "家を建てます。", "romaji": "Ie wo tatemasu.", "english": "I build a house." }
+    ]
+  },
+  {
+    "id": "korosu",
+    "kanji": "殺す",
+    "kana": "ころす",
+    "romaji": "korosu",
+    "meaning": "to kill",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "虫を殺します。", "romaji": "Mushi wo koroshimasu.", "english": "I kill the bug." }
+    ]
+  },
+  {
+    "id": "umareru",
+    "kanji": "生まれる",
+    "kana": "うまれる",
+    "romaji": "umareru",
+    "meaning": "to be born",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "東京で生まれました。", "romaji": "Tokyo de umaremashita.", "english": "I was born in Tokyo." }
+    ]
+  },
+  {
+    "id": "shinu",
+    "kanji": "死ぬ",
+    "kana": "しぬ",
+    "romaji": "shinu",
+    "meaning": "to die",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "ぬ",
+    "examples": [
+      { "japanese": "花が死にます。", "romaji": "Hana ga shinimasu.", "english": "The flower dies." }
+    ]
+  },
+  {
+    "id": "kurushimu",
+    "kanji": "苦しむ",
+    "kana": "くるしむ",
+    "romaji": "kurushimu",
+    "meaning": "to suffer; to be in pain",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "病気で苦しみます。", "romaji": "Byouki de kurushimimasu.", "english": "I suffer from illness." }
+    ]
+  },
+  {
+    "id": "yorokobu",
+    "kanji": "喜ぶ",
+    "kana": "よろこぶ",
+    "romaji": "yorokobu",
+    "meaning": "to be glad; to rejoice",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "ぶ",
+    "examples": [
+      { "japanese": "プレゼントに喜びます。", "romaji": "Purezento ni yorokobimasu.", "english": "I rejoice at the present." }
+    ]
+  },
+  {
+    "id": "kanashimu",
+    "kanji": "悲しむ",
+    "kana": "かなしむ",
+    "romaji": "kanashimu",
+    "meaning": "to be sad; to grieve",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "別れを悲しみます。", "romaji": "Wakare wo kanashimimasu.", "english": "I grieve over the parting." }
+    ]
+  },
+  {
+    "id": "rikai suru",
+    "kanji": "理解する",
+    "kana": "りかいする",
+    "romaji": "rikai suru",
+    "meaning": "to understand; to comprehend",
+    "jlpt": "N3",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "問題を理解します。", "romaji": "Mondai wo rikai shimasu.", "english": "I understand the problem." }
+    ]
+  },
+  {
+    "id": "benkyou_suru",
+    "kanji": "勉強する",
+    "kana": "べんきょうする",
+    "romaji": "benkyou suru",
+    "meaning": "to study",
+    "jlpt": "N5",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "毎日勉強します。", "romaji": "Mainichi benkyou shimasu.", "english": "I study every day." }
+    ]
+  },
+  {
+    "id": "ryokou_suru",
+    "kanji": "旅行する",
+    "kana": "りょこうする",
+    "romaji": "ryokou suru",
+    "meaning": "to travel",
+    "jlpt": "N4",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "日本を旅行します。", "romaji": "Nihon wo ryokou shimasu.", "english": "I travel Japan." }
+    ]
+  },
+  {
+    "id": "renraku_suru",
+    "kanji": "連絡する",
+    "kana": "れんらくする",
+    "romaji": "renraku suru",
+    "meaning": "to contact; to get in touch",
+    "jlpt": "N4",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "後で連絡します。", "romaji": "Ato de renraku shimasu.", "english": "I will contact you later." }
+    ]
+  },
+  {
+    "id": "nusumu",
+    "kanji": "盗む",
+    "kana": "ぬすむ",
+    "romaji": "nusumu",
+    "meaning": "to steal",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "物を盗みます。", "romaji": "Mono wo nusumimasu.", "english": "I steal things." }
+    ]
+  },
+  {
+    "id": "kakusu",
+    "kanji": "隠す",
+    "kana": "かくす",
+    "romaji": "kakusu",
+    "meaning": "to hide (something)",
+    "jlpt": "N3",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "秘密を隠します。", "romaji": "Himitsu wo kakushimasu.", "english": "I hide a secret." }
+    ]
+  },
+  {
+    "id": "kakureru",
+    "kanji": "隠れる",
+    "kana": "かくれる",
+    "romaji": "kakureru",
+    "meaning": "to hide (oneself)",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "木の後ろに隠れます。", "romaji": "Ki no ushiro ni kakuremasu.", "english": "I hide behind the tree." }
+    ]
+  },
+  {
+    "id": "kiitatsu_suru",
+    "kanji": "発揮する",
+    "kana": "はっきする",
+    "romaji": "hakki suru",
+    "meaning": "to demonstrate; to display (ability)",
+    "jlpt": "N1",
+    "type": "irregular",
+    "examples": [
+      { "japanese": "実力を発揮します。", "romaji": "Jitsuryoku wo hakki shimasu.", "english": "I demonstrate my true ability." }
+    ]
+  },
+  {
+    "id": "moukeru",
+    "kanji": "設ける",
+    "kana": "もうける",
+    "romaji": "moukeru",
+    "meaning": "to establish; to set up",
+    "jlpt": "N1",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "新しいルールを設けます。", "romaji": "Atarashii ruuru wo moukemasu.", "english": "I establish a new rule." }
+    ]
+  },
+  {
+    "id": "ninau",
+    "kanji": "担う",
+    "kana": "になう",
+    "romaji": "ninau",
+    "meaning": "to bear; to carry; to take on (responsibility)",
+    "jlpt": "N1",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "責任を担います。", "romaji": "Sekinin wo ninaimasu.", "english": "I bear the responsibility." }
+    ]
+  },
+  {
+    "id": "habamu",
+    "kanji": "阻む",
+    "kana": "はばむ",
+    "romaji": "habamu",
+    "meaning": "to hinder; to obstruct",
+    "jlpt": "N1",
+    "type": "godan",
+    "ending": "む",
+    "examples": [
+      { "japanese": "進歩を阻みます。", "romaji": "Shinpo wo habamimasu.", "english": "I hinder the progress." }
+    ]
+  },
+  {
+    "id": "togeru",
+    "kanji": "遂げる",
+    "kana": "とげる",
+    "romaji": "togeru",
+    "meaning": "to accomplish; to achieve",
+    "jlpt": "N1",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "目標を遂げます。", "romaji": "Mokuhyou wo togemasu.", "english": "I accomplish the goal." }
+    ]
+  },
+  {
+    "id": "yuzuru",
+    "kanji": "譲る",
+    "kana": "ゆずる",
+    "romaji": "yuzuru",
+    "meaning": "to give up; to hand over; to concede",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "席を譲ります。", "romaji": "Seki wo yuzurimasu.", "english": "I give up my seat." }
+    ]
+  },
+  {
+    "id": "shitagau",
+    "kanji": "従う",
+    "kana": "したがう",
+    "romaji": "shitagau",
+    "meaning": "to follow; to obey",
+    "jlpt": "N2",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "ルールに従います。", "romaji": "Ruuru ni shitagaimasu.", "english": "I follow the rules." }
+    ]
+  },
+  {
+    "id": "hajimeru",
+    "kanji": "始める",
+    "kana": "はじめる",
+    "romaji": "hajimeru",
+    "meaning": "to begin (something)",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "仕事を始めます。", "romaji": "Shigoto wo hajimemasu.", "english": "I begin work." }
+    ]
+  },
+  {
+    "id": "oweru",
+    "kanji": "終える",
+    "kana": "おえる",
+    "romaji": "oeru",
+    "meaning": "to finish; to complete",
+    "jlpt": "N3",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "仕事を終えます。", "romaji": "Shigoto wo oemasu.", "english": "I finish the work." }
+    ]
+  },
+  {
+    "id": "motsu",
+    "kanji": "持つ",
+    "kana": "もつ",
+    "romaji": "motsu",
+    "meaning": "to hold; to have; to carry",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "つ",
+    "examples": [
+      { "japanese": "鞄を持ちます。", "romaji": "Kaban wo mochimasu.", "english": "I carry a bag." }
+    ]
+  },
+  {
+    "id": "dasu",
+    "kanji": "出す",
+    "kana": "だす",
+    "romaji": "dasu",
+    "meaning": "to take out; to put out; to submit",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "す",
+    "examples": [
+      { "japanese": "ゴミを出します。", "romaji": "Gomi wo dashimasu.", "english": "I take out the trash." }
+    ]
+  },
+  {
+    "id": "utau",
+    "kanji": "歌う",
+    "kana": "うたう",
+    "romaji": "utau",
+    "meaning": "to sing",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "う",
+    "examples": [
+      { "japanese": "歌を歌います。", "romaji": "Uta wo utaimasu.", "english": "I sing a song." }
+    ]
+  },
+  {
+    "id": "odoru",
+    "kanji": "踊る",
+    "kana": "おどる",
+    "romaji": "odoru",
+    "meaning": "to dance",
+    "jlpt": "N4",
+    "type": "godan",
+    "ending": "る",
+    "examples": [
+      { "japanese": "ダンスを踊ります。", "romaji": "Dansu wo odorimasu.", "english": "I dance." }
+    ]
+  },
+  {
+    "id": "kanjiru",
+    "kanji": "感じる",
+    "kana": "かんじる",
+    "romaji": "kanjiru",
+    "meaning": "to feel; to sense",
+    "jlpt": "N4",
+    "type": "ichidan",
+    "examples": [
+      { "japanese": "幸せを感じます。", "romaji": "Shiawase wo kanjimasu.", "english": "I feel happiness." }
+    ]
+  },
+  {
+    "id": "iku_irregulartest",
+    "kanji": "行く",
+    "kana": "いく",
+    "romaji": "iku_te",
+    "meaning": "to go (て-form exception: いって)",
+    "jlpt": "N5",
+    "type": "godan",
+    "ending": "く",
+    "examples": []
+  }
+]

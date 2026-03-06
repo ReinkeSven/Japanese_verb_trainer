@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.label {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  min-width: 80px;
+}
+
+.track {
+  flex: 1;
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: var(--color-accent);
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.pct {
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  min-width: 36px;
+  text-align: right;
+}
