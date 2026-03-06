@@ -62,6 +62,7 @@ export default function Study() {
   const [verbIndex, setVerbIndex] = useState(0);
   const [sessionVerbs, setSessionVerbs] = useState<Verb[]>([]);
   const [sessionStats, setSessionStats] = useState({ correct: 0, total: 0 });
+  const [conjQuestion, setConjQuestion] = useState<ConjugationQuestion | null>(null);
 
   const { recordAnswer } = useProgress();
 
@@ -83,6 +84,7 @@ export default function Study() {
     setSessionVerbs(shuffled);
     setVerbIndex(0);
     setSessionStats({ correct: 0, total: 0 });
+    if (m === 'conjugation') setConjQuestion(makeConjQuestion(shuffled[0]));
     setMode(m);
   }
 
@@ -91,7 +93,11 @@ export default function Study() {
   }
 
   function nextVerb() {
-    setVerbIndex(i => (i + 1) % sessionVerbs.length);
+    setVerbIndex(i => {
+      const next = (i + 1) % sessionVerbs.length;
+      if (mode === 'conjugation') setConjQuestion(makeConjQuestion(sessionVerbs[next]));
+      return next;
+    });
   }
 
   function handleAnswer(correct: boolean) {
@@ -137,10 +143,10 @@ export default function Study() {
               onNext={nextVerb}
             />
           )}
-          {mode === 'conjugation' && (
+          {mode === 'conjugation' && conjQuestion && (
             <ConjugationQuiz
               key={verb.id + verbIndex}
-              question={makeConjQuestion(verb)}
+              question={conjQuestion}
               onAnswer={handleAnswer}
               onNext={nextVerb}
             />
