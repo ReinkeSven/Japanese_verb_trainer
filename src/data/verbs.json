@@ -965,10 +965,10 @@
     ]
   },
   {
-    "id": "kaeру",
+    "id": "kaeru_go",
     "kanji": "帰る",
     "kana": "かえる",
-    "romaji": "kaeru_go",
+    "romaji": "kaeru",
     "meaning": "to return home; to go back",
     "jlpt": "N5",
     "type": "godan",
@@ -1219,13 +1219,12 @@
     "id": "gozaru",
     "kanji": "ございます",
     "kana": "ございます",
-    "romaji": "gozaru",
-    "meaning": "to exist; to be (polite/formal)",
+    "romaji": "gozaimasu",
+    "meaning": "to exist; to be (honorific/polite)",
     "jlpt": "N2",
-    "type": "godan",
-    "ending": "る",
+    "type": "irregular",
     "examples": [
-      { "japanese": "こちらにございます。", "romaji": "Kochira ni gozaimasu.", "english": "It is over here." }
+      { "japanese": "こちらにございます。", "romaji": "Kochira ni gozaimasu.", "english": "It is over here (polite)." }
     ]
   },
   {
@@ -1604,16 +1603,5 @@
     "examples": [
       { "japanese": "幸せを感じます。", "romaji": "Shiawase wo kanjimasu.", "english": "I feel happiness." }
     ]
-  },
-  {
-    "id": "iku_irregulartest",
-    "kanji": "行く",
-    "kana": "いく",
-    "romaji": "iku_te",
-    "meaning": "to go (て-form exception: いって)",
-    "jlpt": "N5",
-    "type": "godan",
-    "ending": "く",
-    "examples": []
   }
 ]

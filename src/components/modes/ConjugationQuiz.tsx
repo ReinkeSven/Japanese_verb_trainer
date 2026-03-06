@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import type { ConjugationQuestion } from '../../types';
 import { getAllConjugations } from '../../utils/conjugation';
 import Button from '../ui/Button';
+import RuleExplanation from '../ui/RuleExplanation';
 import styles from './ConjugationQuiz.module.css';
 
 interface ConjugationQuizProps {
@@ -78,6 +79,9 @@ export default function ConjugationQuiz({ question, onAnswer, onNext }: Conjugat
           )}
         </div>
       )}
+
+      {/* Grammar rule explanation */}
+      {submitted && <RuleExplanation form={question.form} />}
 
       {/* Full conjugation table toggle */}
       {submitted && (

@@ -32,19 +32,23 @@ export interface Verb {
 
 /** All conjugation forms the app can quiz on. */
 export type ConjugationForm =
-  | 'masu'         // polite present   食べます
-  | 'masuNeg'      // polite negative  食べません
-  | 'masuPast'     // polite past      食べました
-  | 'masuPastNeg'  // polite past neg  食べませんでした
-  | 'te'           // te-form          食べて
-  | 'ta'           // plain past       食べた
-  | 'nai'          // plain negative   食べない
-  | 'ba'           // conditional      食べれば
-  | 'volitional'   // volitional       食べよう
-  | 'potential'    // potential        食べられる
-  | 'passive'      // passive          食べられる
-  | 'causative'    // causative        食べさせる
-  | 'imperative';  // imperative       食べろ
+  | 'masu'         // polite present       食べます
+  | 'masuNeg'      // polite negative      食べません
+  | 'masuPast'     // polite past          食べました
+  | 'masuPastNeg'  // polite past neg      食べませんでした
+  | 'te'           // te-form              食べて
+  | 'ta'           // plain past           食べた
+  | 'nai'          // plain negative       食べない
+  | 'ba'           // conditional          食べれば
+  | 'volitional'   // volitional           食べよう
+  | 'potential'    // potential            食べられる
+  | 'passive'      // passive              食べられる
+  | 'causative'    // causative            食べさせる
+  | 'imperative'   // imperative           食べろ
+  | 'teiru'        // continuous/state     食べている
+  | 'tai'          // desiderative         食べたい
+  | 'teshimau'     // completive/regret    食べてしまう
+  | 'temo';        // concessive           食べても
 
 export interface ConjugationResult {
   form: ConjugationForm;

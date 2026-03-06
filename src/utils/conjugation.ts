@@ -57,6 +57,10 @@ function conjugateIchidan(kana: string, form: ConjugationForm): string {
     case 'passive':     return base + 'られる';
     case 'causative':   return base + 'させる';
     case 'imperative':  return base + 'ろ';
+    case 'teiru':       return base + 'ている';
+    case 'tai':         return base + 'たい';
+    case 'teshimau':    return base + 'てしまう';
+    case 'temo':        return base + 'ても';
   }
 }
 
@@ -73,12 +77,14 @@ function conjugateGodan(verb: Verb, form: ConjugationForm): string {
   // 行く (iku) has an irregular te/ta form: いって / いった
   const isIku = kana === 'いく' && end === 'く';
 
+  const teForm = isIku ? base + 'って' : base + g.te;
+
   switch (form) {
     case 'masu':        return base + g.i + 'ます';
     case 'masuNeg':     return base + g.i + 'ません';
     case 'masuPast':    return base + g.i + 'ました';
     case 'masuPastNeg': return base + g.i + 'ませんでした';
-    case 'te':          return isIku ? base + 'って' : base + g.te;
+    case 'te':          return teForm;
     case 'ta':          return isIku ? base + 'った' : base + g.ta;
     case 'nai':         return base + g.a + 'ない';
     case 'ba':          return base + g.e + 'ば';
@@ -87,6 +93,10 @@ function conjugateGodan(verb: Verb, form: ConjugationForm): string {
     case 'passive':     return base + g.a + 'れる';
     case 'causative':   return base + g.a + 'せる';
     case 'imperative':  return base + g.e;
+    case 'teiru':       return teForm + 'いる';
+    case 'tai':         return base + g.i + 'たい';
+    case 'teshimau':    return teForm + 'しまう';
+    case 'temo':        return teForm + 'も';
   }
 }
 
@@ -98,6 +108,30 @@ function conjugateGodan(verb: Verb, form: ConjugationForm): string {
  */
 function conjugateIrregular(verb: Verb, form: ConjugationForm): string {
   const kana = verb.kana;
+
+  // ── ございます (honorific/defective) ──
+  // Polite-only verb; plain forms are archaic/not used in modern Japanese.
+  if (kana === 'ございます') {
+    switch (form) {
+      case 'masu':        return 'ございます';
+      case 'masuNeg':     return 'ございません';
+      case 'masuPast':    return 'ございました';
+      case 'masuPastNeg': return 'ございませんでした';
+      case 'te':          return 'ございまして';
+      case 'ta':          return 'ございました';
+      case 'nai':         return 'ございません';   // no plain negative in modern use
+      case 'ba':          return 'ございますれば';  // archaic conditional
+      case 'volitional':  return 'ございましょう';
+      case 'potential':   return 'ございます';     // inherently polite – no separate potential
+      case 'passive':     return 'ございます';
+      case 'causative':   return 'ございます';
+      case 'imperative':  return 'ございます';
+      case 'teiru':       return 'ございます';
+      case 'tai':         return 'ございます';
+      case 'teshimau':    return 'ございまして';
+      case 'temo':        return 'ございましても';
+    }
+  }
 
   // ── 来る (くる) ──
   if (kana === 'くる') {
@@ -115,6 +149,10 @@ function conjugateIrregular(verb: Verb, form: ConjugationForm): string {
       case 'passive':     return 'こられる';
       case 'causative':   return 'こさせる';
       case 'imperative':  return 'こい';
+      case 'teiru':       return 'きている';
+      case 'tai':         return 'きたい';
+      case 'teshimau':    return 'きてしまう';
+      case 'temo':        return 'きても';
     }
   }
 
@@ -136,6 +174,10 @@ function conjugateIrregular(verb: Verb, form: ConjugationForm): string {
       case 'passive':     return prefix + 'される';
       case 'causative':   return prefix + 'させる';
       case 'imperative':  return prefix + 'しろ';
+      case 'teiru':       return prefix + 'している';
+      case 'tai':         return prefix + 'したい';
+      case 'teshimau':    return prefix + 'してしまう';
+      case 'temo':        return prefix + 'しても';
     }
   }
 
@@ -159,6 +201,10 @@ export const FORM_LABELS: Record<ConjugationForm, string> = {
   passive:      'Passive',
   causative:    'Causative',
   imperative:   'Imperative',
+  teiru:        'Continuous (〜ている)',
+  tai:          'Desiderative (〜たい)',
+  teshimau:     'Completive (〜てしまう)',
+  temo:         'Concessive (〜ても)',
 };
 
 export const ALL_FORMS: ConjugationForm[] = Object.keys(FORM_LABELS) as ConjugationForm[];
